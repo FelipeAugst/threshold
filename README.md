@@ -1,1 +1,2 @@
 implementação simples do filtro de limiar utilizando a biblioteca padrão de Go.
+O algoritmo primeiramente passa a imagem para a escala de cinza e calcula a luminosidade de cada pixel. Depois, baseado no valor médio de luminosidade(aqui luminosidade máxima+ luminosidade mínima/2 ), ele classifica os pixels acima da média  como branco  e abaixo como pretos.
